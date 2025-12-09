@@ -12,7 +12,7 @@ public class CalculatorTest {
     @Test
     public void testCong() {
         // Kiểm tra 10 + 20 có bằng 30 không
-        Assert.assertEquals(calc.add(10, 20), 30);
+        Assert.assertEquals(calc.add(10, 20), 20);
     }
 
     @Test
