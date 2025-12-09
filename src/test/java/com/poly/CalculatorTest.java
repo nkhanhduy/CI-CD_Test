@@ -11,19 +11,17 @@ public class CalculatorTest {
 
     @Test
     public void testCong() {
-        // Kiểm tra 10 + 20 có bằng 30 không
-        Assert.assertEquals(calc.add(10, 20), 30);
+        Assert.assertEquals(calc.add(10, 20), 50);
     }
 
     @Test
     public void testTru() {
-        // Kiểm tra 5 - 2 có bằng 3 không
+
         Assert.assertEquals(calc.subtract(5, 2), 3);
     }
     
     @Test
     public void testNhan() {
-        // Kiểm tra 3 * 3 có bằng 9 không
         Assert.assertEquals(calc.multiply(3, 3), 9);
     }
 
