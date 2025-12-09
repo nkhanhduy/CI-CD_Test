@@ -32,4 +32,9 @@ public class CalculatorTest {
     public void testChiaCho0() {
         calc.divide(5, 0); 
     }
+    
+    @Test
+    public void testPhepNhan() {
+        Assert.assertEquals(calc.multiply(10, 5), 50);
+    }
 }
