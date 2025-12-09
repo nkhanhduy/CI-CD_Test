@@ -11,7 +11,7 @@ public class CalculatorTest {
 
     @Test
     public void testCong() {
-        Assert.assertEquals(calc.add(10, 20), 30);
+        Assert.assertEquals(calc.add(10, 20), 50);
     }
 
     @Test
