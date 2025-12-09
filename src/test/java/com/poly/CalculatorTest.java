@@ -27,14 +27,9 @@ public class CalculatorTest {
         Assert.assertEquals(calc.multiply(3, 3), 9);
     }
 
-    // Test trường hợp chia cho 0 phải báo lỗi
     @Test(expectedExceptions = IllegalArgumentException.class)
     public void testChiaCho0() {
         calc.divide(5, 0); 
     }
     
-    @Test
-    public void testPhepNhan() {
-        Assert.assertEquals(calc.multiply(10, 5), 50);
-    }
 }
