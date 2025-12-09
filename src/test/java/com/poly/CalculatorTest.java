@@ -35,6 +35,6 @@ public class CalculatorTest {
     
     @Test
     public void testPhepNhan() {
-        Assert.assertEquals(calc.multiply(10, 5), 40);
+        Assert.assertEquals(calc.multiply(10, 5), 50);
     }
 }
